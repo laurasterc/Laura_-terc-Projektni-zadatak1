@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: "LauraSterc";
+    src: url("LauraSterc.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+p{
+	color: #B90A0D;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+	width: 650px;
+	line-height: 20px;
+	background-color: rgba(204,244,232,1.00);
+	padding: 25px;
+}
+body{font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	padding: 20px;
+	background-image: url("slika1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	font-family: LauraSterc, 'serif';
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.stranica1 h1{
+	font-size: 30px;
+}
+.stranica1 h2{
+	font-size: 25px;
+}
+.stranica1 h3{
+	font-size: 18px;
+}
+.stranica1 h4{
+	font-size: 18px;
+}
+.stranica1 h5{
+	font-size: 18px;
+}
